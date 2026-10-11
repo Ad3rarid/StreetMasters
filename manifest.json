@@ -1,9 +1,20 @@
 {
-  "format": 2,
-  "version": "0.0.1",
-  "baseVersion": "0.0.1",
-  "basePackageUrl": "https://github.com/Ad3rarid/StreetMasters/releases/download/v0.0.1/StreetMasters.zip",
-  "baseSha256": "c7044629443253d48f74fb37450b02ec468712b16a5c19a05576848d7ead0971",
-  "baseSize": 333450606,
-  "patches": []
+    "format":  2,
+    "version":  "0.0.11",
+    "baseVersion":  "0.0.1",
+    "basePackageUrl":  "https://github.com/Ad3rarid/StreetMasters/releases/download/v0.0.1/StreetMasters.zip",
+    "baseSha256":  "c7044629443253d48f74fb37450b02ec468712b16a5c19a05576848d7ead0971",
+    "baseSize":  333450606,
+    "patches":  [
+                    {
+                        "version":  "0.0.11",
+                        "url":  "https://github.com/Ad3rarid/StreetMasters/releases/download/v0.0.11/StreetMasters-Patch-0.0.11.zip",
+                        "sha256":  "3c22f3460b2e8523140aae638c9af5eff1ee05c37a19487d297faf6a6f0b5a0c",
+                        "size":  47463154,
+                        "deleted":  [
+                                        "StreetMasters.zip",
+                                        "Street Masters_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt"
+                                    ]
+                    }
+                ]
 }
